@@ -25,3 +25,18 @@
   transition-duration: 4s;
   transition-timing-function: ease-in;
 }
+
+@media screen and (min-width: 600px) {
+  .main-picture {
+    border-radius: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    min-height: calc(100vh - 143px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
