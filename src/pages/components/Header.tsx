@@ -26,8 +26,8 @@ function toggleMenuAndBlur() {
 
 export default function Header() {
     return(
-        <header className={`${kumbh_sans.className} p-6`}>
-            <nav className="flex items-center flex-wrap h-full justify-between gap-4 lg:gap-0">
+        <header className={`${kumbh_sans.className} p-6 lg:max-w-[1080px] mx-auto`}>
+            <nav className="flex items-center flex-wrap h-full justify-between gap-4 lg:gap-0 lg:border-b lg:border-b-dark-grayish-blue lg:pb-10 lg:pt-6">
                 <a href="#"
                     className="flex items-center gap-4 lg:w-1/5">
                     <span className="block h-[20px] menu-open lg:hidden"
